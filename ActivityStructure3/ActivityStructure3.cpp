@@ -5,18 +5,18 @@ struct DetailAlamat
 {
     char Desa[20];
     char Kota[20];
-};
+}; 
 
-struct mahasiswa
+struct Mahasiswa
 {
     char nim[12];
     char nama[20];
     DetailAlamat alamat;
     int umur;
-};
+}; 
 
 int main() {
-    mahasiswa mhs[3];
+    Mahasiswa mhs[3];
 
     for (int i = 0; i < 3; i++) {
         cout << "Masukkan NIM : ";
